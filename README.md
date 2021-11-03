@@ -1,3 +1,7 @@
+![Demo](https://github.com/evarol/Decentralized-Worm-Registration/blob/master/fig.png)
+
+
+
 # Decentralized Worm Registration
  Straightening freely behaving C. elegans videos by groupwise decentralized point set registration
 

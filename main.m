@@ -262,7 +262,7 @@ for i=1:numT
     subplot(2,3,3);myplot3(pc_cpd{i},'r.');set(gca,'xlim',[0 500*pixel_dimensions(1)],'ylim',[0 500*pixel_dimensions(2)],'zlim',[0 100*pixel_dimensions(3)]);grid on;title(['Deformable Registered to frame ' num2str(template) ' - Frame ' num2str(i)]);set(gca,'FontWeight','bold','FontSize',20,'TickLength',[0 0]);set(gcf,'Color','w');drawnow
     subplot(2,3,[4:6]);plot(1:i,unreg_error(1:i),'b',1:i,reg_error(1:i),'r',1:i,cpd_error(1:i),'g','LineWidth',2);legend('Unregistered error','Rigid registered error','Deformable registered error');set(gca,'FontWeight','bold','FontSize',20,'TickLength',[0 0]);set(gcf,'Color','w');grid on;drawnow
     set(gcf,'Color','w');
-    export_fig(['./figs/frame_' num2str(i) '.png']);
+%     export_fig(['./figs/frame_' num2str(i) '.png']);
 end
 
 figure;

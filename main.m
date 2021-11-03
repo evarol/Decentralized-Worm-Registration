@@ -35,11 +35,11 @@ dotSize=10;
 
 
 if ~exist('b');
-    b=h5read('./data/data_4.h5','/data');
+    b=h5read('./data/data_1.h5','/data');
     tmp=b(:,:,:,1,:);
     b(:,:,:,1,:)=b(:,:,:,2,:);
     b(:,:,:,2,:)=tmp;clear tmp
-    b=b(:,:,:,:,1:400);
+    b=b(:,:,:,:,1:100);
 end
 numT=size(b,5);
 

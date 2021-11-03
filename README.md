@@ -1,4 +1,4 @@
-![Demo](https://github.com/evarol/Decentralized-Worm-Registration/blob/master/fig.png)
+![Demo](https://github.com/evarol/Decentralized-Worm-Registration/blob/master/demo.png)
 
 
 
